@@ -1,0 +1,236 @@
+
+.grid {
+    display: grid;
+    height: 100vh;
+    overflow-x: hidden;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    color: white;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .title {
+        grid-column: 1 / 9;
+        grid-row: 1 / 3;
+    }
+    
+    .about {
+        grid-column: 1 / 5;
+        grid-row: 3 / 7;
+    }
+
+    .contact {
+        grid-column: 5 / 9;
+        grid-row: 3 / 5;
+    }
+
+    .projects {
+        grid-column: 5 / 9;
+        grid-row: 5 / 7;
+    }
+
+    .skills {
+        grid-column: 1 / -1;
+        grid-row: 7 / 9;
+    }
+        /* intersection observer animations */
+        .show-about {
+            transition: ease-in-out 0.6s;
+        }
+        
+        .hide-about {
+            transform: translateX(200%) rotate(360deg);
+        
+        }
+        
+        .show-title {
+            transition: ease-in-out 0.7s;
+        }
+        
+        .hide-title {
+            transform: translateY(-100%);
+        }
+        
+        .show-contact {
+            transition: ease-in-out 0.8s;
+        }
+        
+        .hide-contact {
+            transform: translateX(-200%) rotate(360deg);
+        }   
+        
+        .show-projects {
+            transition: ease-in-out 0.8s;
+        }
+        
+        .hide-projects {
+            transform: translateX(-200%) rotate(360deg);
+        }  
+        
+        .show-skills {
+            transition: ease-in-out 0.7s;
+        }
+        
+        .hide-skills {
+            transform: translateY(100%);
+        }
+
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
+
+    .title {
+        grid-column: 1 / 9;
+        grid-row: 1 / 3;
+    }
+    
+    .about {
+        grid-column: 1 / 6;
+        grid-row: 3 / 6;
+    }
+
+    .contact {
+        grid-column: 6 / 9;
+        grid-row: 3 / 6;
+    }
+
+    .projects {
+        grid-column: 1 / 5;
+        grid-row: 6 / 9;
+    }
+
+    .skills {
+        grid-column: 5 / 9;
+        grid-row: 6 / 9;
+    }
+
+    /* intersection observer animations */
+    .show-about {
+        transition: ease-in-out 0.6s;
+    }
+    
+    .hide-about {
+        transform: translateX(100%) rotate(360deg);
+    }
+    
+    .show-title {
+        transition: ease-in-out 0.7s;
+    }
+    
+    .hide-title {
+        transform: translateY(-100%);
+    }
+    
+    .show-contact {
+        transition: ease-in-out 0.8s;
+    }
+    
+    .hide-contact {
+        transform: translateX(-200%) rotate(360deg);
+    }   
+    
+    .show-projects {
+        transition: ease-in-out 0.8s;
+    }
+    
+    .hide-projects {
+        transform: translateY(-200%) rotate(360deg);
+    }  
+    
+    .show-skills {
+        transition: ease-in-out 0.7s;
+    }
+    
+    .hide-skills {
+        transform: translateY(-200%) rotate(360deg);
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+    .title {
+        grid-column: 1 / 9;
+        grid-row: 1 / 4;
+    }
+    
+    .about {
+        grid-column: 1 / 4;
+        grid-row: 4 / -1;
+    }
+
+    .contact {
+        grid-column: 4 / 6;
+        grid-row: 4 / 6;
+    }
+
+    .projects {
+        grid-column: 6 / 9;
+        grid-row: 4 / 6;
+    }
+
+    .skills {
+        grid-column: 4 / 9;
+        grid-row: 6 / 9;
+    }
+
+    
+    /* intersection observer animations */
+    .show-about {
+        transition: ease-in-out 0.6s;
+    }
+    
+    .hide-about {
+        transform: translateX(200%) rotate(360deg);
+    }
+    
+    .show-title {
+        transition: ease-in-out 0.7s;
+    }
+    
+    .hide-title {
+        transform: translateY(-100%);
+    }
+    
+    .show-contact {
+        transition: ease-in-out 0.8s;
+    }
+    
+    .hide-contact {
+        transform: translateX(-200%) rotate(360deg);
+    }   
+    
+    .show-projects {
+        transition: ease-in-out 0.8s;
+    }
+    
+    .hide-projects {
+        transform: translateX(-200%) rotate(360deg);
+    }  
+    
+    .show-skills {
+        transition: ease-in-out 0.7s;
+    }
+    
+    .hide-skills {
+        transform: translateY(100%);
+    }
+    
+}
