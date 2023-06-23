@@ -1,4 +1,5 @@
-import classes from './projects.module.css';
+import classes from './Projects.module.css';
+
 const Projects = () => {
     return (
         <div className={`${classes.projects} bg-purple text-3xl lg:text-6xl`}>
