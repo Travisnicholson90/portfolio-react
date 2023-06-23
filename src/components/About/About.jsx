@@ -2,7 +2,7 @@ import classes from './About.module.css';
 
 const About = () => {
     return (
-    <div className={`${classes.container} bg-darkBlue text-3xl lg:text-6xl overflow-hidden`}>
+    <div className={`${classes.container} bg-darkBlue text-3xl lg:text-6xl overflow-hidden hover:cursor-pointer`}>
         <div className={`${classes['rotating-box']}`}>
             <div className={`${classes['rotating-box__square']}`}></div>
             <div className={`${classes['rotating-box__circle']}`}></div>
