@@ -4,7 +4,7 @@ import mail from '../../assets/images/mail.svg';
 import linkedin from '../../assets/images/linkedin.svg';
 const Contact = () => {
     return (
-        <div className={`${classes.contact} bg-darkGreen text-3xl lg:text-6xl`}>
+        <div className={`${classes.contact} bg-darkGreen text-3xl lg:text-6xl hover:cursor-pointer`}>
             <h2 className={`me-3 overflow-hidden ${classes.heading} bg-darkGreen text-lime`}>Contact</h2>
             <div className={`${classes.icons} bg-darkGreen`}>
                 <img className={`w-8 lg:w-10 ${classes.icon}`} src={github} alt="icon" />

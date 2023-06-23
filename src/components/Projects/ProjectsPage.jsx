@@ -17,7 +17,7 @@ const ProjectsPage = () => {
                     <a className='hover:cursor-pointer hover:opacity-70' href="">
                     <p className='text-pink'>GitHub</p>
                     </a>
-                    <a className='hover:cursor-pointer' href="">
+                    <a className='hover:cursor-pointer' href="https://tech-blog-usyd.herokuapp.com/" target='blank' >
                     <p className='text-pink'>Website</p>
                     </a>
                 </div>
