@@ -8,7 +8,6 @@
     height: 100%;
     grid-template-columns: 1fr;
     place-items: center;
-    padding: 0 .5rem;
     margin-inline: auto;
 }
 
@@ -55,7 +54,6 @@
     padding: 1rem;
     border-radius: 55px;
     padding: 1rem 2rem;
-    /* width: 100%; */
 }
 
 .btn {
