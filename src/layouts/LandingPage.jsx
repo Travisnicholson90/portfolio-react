@@ -16,8 +16,8 @@ const LandingPage = () => {
     return (
         <div className={`${classes['grid']}`}>
             <div ref={titleRef} className={`flex flex-col gap-4 ${classes.title} ${titleInView ? `${classes['show-title']}` : `${classes['hide-title']}`}`}>
-                <h1 className="overflow-hidden text-center text-5xl lg:text-7xl">Travis Nicholson</h1>
-                <h2 className="overflow-hidden text-center text-3xl lg:text-5xl">Fullstack Developer</h2></div>
+                <h1 className="overflow-hidden text-center text-3xl lg:text-7xl">Travis Nicholson</h1>
+                <h2 className="overflow-hidden text-center text-2xl lg:text-5xl">Fullstack Developer</h2></div>
             <div ref={aboutRef} className={` ${classes.about} ${aboutInView ? `${classes['show-about']}` : `${classes['hide-about']}` }`}>
                 <About />
             </div>
