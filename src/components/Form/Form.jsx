@@ -31,7 +31,7 @@ const onSubmit = async (data) => {
 
     return (
 <div className={`${classes.wrapper}`}>
-    <div className={`${classes.container}`}>
+    <div className={`${classes.container} w-4/5 lg:w-2/3 mx-auto`}>
         <h2 className={`text-lightBlue text-6xl lg:text-7xl overflow-hidden`}>Say Hi</h2>
         <form onSubmit={handleSubmit(onSubmit)} className={`${classes['form-container']}`} noValidate >
 
@@ -59,7 +59,7 @@ const onSubmit = async (data) => {
             {...register('message', {
                 required: 'Message is required',
             })} 
-            cols="30" rows="10"></textarea>
+            cols="20" rows="10"></textarea>
             <p>{errors.message?.message}</p>
             </div>
             <button ref={btnRef} className={`${classes.btn} bg-darkBlue text-lightBlue text-xl lg:text-2xl uppercase tracking-wider font-bold ${btnInView ? `${classes['show-btn']}` : `${classes['hide-btn']}`}`}>Submit</button>
