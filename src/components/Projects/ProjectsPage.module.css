@@ -116,30 +116,39 @@
 /* intersection observer */
 
 .show-blog {
-    transition: ease-in-out 0.5s;
+    opacity: 1;
+    transition: ease-in-out 1s;
 }
 
 .hide-blog {
-    transform: translateX(-100%);
+    opacity: 0;
+    transition: ease-in-out 1s;
 }
+
 .show-jobs {
-    transition: ease-in-out 0.5s;
+    opacity: 1;
+    transition: ease-in-out 1s;
 }
 
 .hide-jobs {
-    transform: translateX(100%);
+    opacity: 0;
+    transition: ease-in-out 1s;
 }
 .show-planner {
-    transition: ease-in-out 0.5s;
+    opacity: 1;
+    transition: ease-in-out 1s;
 }
 
 .hide-planner {
-    transform: translateX(-100%);
+    opacity: 0;
+    transition: ease-in-out 1s;
 }
 .show-shoes {
-    transition: ease-in-out 0.5s;
+    opacity: 1;
+    transition: ease-in-out 1s;
 }
 
 .hide-shoes {
-    transform: translateX(100%);
+    opacity: 0;
+    transition: ease-in-out 1s;
 }
