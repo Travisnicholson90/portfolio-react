@@ -15,7 +15,7 @@ const {ref: btnRef, inView: btnInView } = useInView();
 
 const onSubmit = async (data) => {
     console.log(data);
-    const response = await fetch('http://localhost:3001/api/form', {
+    const response = await fetch('https://portfolio-api-tp7v.onrender.com/api/contact', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
