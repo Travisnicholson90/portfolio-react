@@ -129,10 +129,10 @@ const ProjectsPage = () => {
     <div ref={shoesRef} className={`overflow-hidden p-4  ${classes.planner} bg-darkBlue ${shoesInView ? `${classes['show-shoes']}` : `${classes['hide-shoes']}`}`}>
         <div className={`${classes.wrapper} bg-darkBlue`}>
                 <div className={`${classes.links} px-8 text-xl lg:text-2xl  bg-darkBlue`}>
-                <a className='hover:cursor-pointer' href="">
+                <a className='hover:cursor-pointer' href="https://github.com/Travisnicholson90/quiz-app">
                     <p className='text-lightBlue'>GitHub</p>
                     </a>
-                    <a className='hover:cursor-pointer' href="">
+                    <a className='hover:cursor-pointer' href="https://scintillating-pika-e66b90.netlify.app/">
                     <p className='text-lightBlue'>Website</p>
                     </a>
                 </div>
